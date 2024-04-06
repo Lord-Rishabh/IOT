@@ -20,8 +20,8 @@ function App() {
 
     fetchData(); // Fetch data immediately when component mounts
 
-    // Setup interval to fetch data every 15 seconds
-    const interval = setInterval(fetchData, 15000);
+    // Setup interval to fetch data every 2 seconds
+    const interval = setInterval(fetchData, 2000);
 
     // Cleanup function to clear interval when component unmounts or changes
     return () => clearInterval(interval);
